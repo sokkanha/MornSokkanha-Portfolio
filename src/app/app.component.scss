@@ -1,0 +1,29 @@
+.layout-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    // align-items: center; /* Center horizontally */
+    // justify-content: center; /* Center vertically */
+    height: 100vh; /* Ensure the section takes full height */
+    padding: 0 20px; /* Padding for better responsiveness */
+  }
+  
+  .layout-component {
+    margin: 20px auto; /* Center the layout component */
+    padding: 20px; /* Internal spacing */
+    max-width: 1200px; /* Max width for larger screens */
+    width: 100%; /* Full width within the max-width */
+    box-sizing: border-box; /* Include padding/borders in total width */
+  }
+  
+  @media (max-width: 768px) {
+    .layout-component {
+      width: 90%; /* Fluid layout on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .layout-component {
+      width: 95%;
+    }
+  }
+  
