@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MORNsokkanha-portfolio"
+    }
+  },
+  "defaultProject": "MORNsokkanha-portfolio",
+  "cli": {
+    "analytics": "064f8071-62fe-4145-aac6-2820df387387"
+  }
 }
